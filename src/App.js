@@ -30,15 +30,15 @@ class App extends Component {
     this.setState({ fontColor: val })
   }
   // updateSize
-  updateSize(val){
+  updateSize = (val) => {
     this.setState({ fontSize: val })
   }
   // updateFamily
-  updateFamily(val){
+  updateFamily = (val) => {
     this.setState({ fontFamily: val })
   }
   // updateEditStatus
-  updateEditStatus(val){
+  updateEditStatus = (val) => {
     this.setState({ allowEdit: val })
   }
   render() {
